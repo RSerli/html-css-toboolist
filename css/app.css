@@ -17,12 +17,12 @@ ol {
 
 /*-------- Configurazioni specifiche --------*/
 
-/* Header settings */
+/* Configurazione Header */
 .LogoToDoList {
     padding: 20px 15px;
 }
 
-/* Main Settings */
+/* Configurazione Main*/
 .Page-Main {
     background-color: rgb(165, 165, 165);
 }
@@ -32,11 +32,28 @@ ol {
     padding: 20px 0;
 }
 
-/* Card ToDoList Settings */
+/* Card ToDoList Configurazioni */
 .ToDoList-Card {
     background-color: white;
     padding: 15px;
     border-radius: 15px;
+}
+
+/* configurazione container dei comandi della card */
+.Buttons-ToDoCard {
+    border-bottom: 1px rgb(165, 165, 165) solid;
+    padding-bottom: 10px;
+}
+
+/* Configurazioni default dei bottoni delle card */
+.Btn-Card {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Btn-Card:hover {
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
 }
 
 /*-------- UTILITY --------*/
