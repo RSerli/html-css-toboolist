@@ -27,6 +27,16 @@ ol {
     background-color: rgb(165, 165, 165);
 }
 
+/* Lista card ToDo */
+.List-ToDoCards {
+    padding: 20px 0;
+}
+
 /* Card ToDoList Settings */
+.ToDoList-Card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
 
 /*-------- UTILITY --------*/
