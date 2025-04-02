@@ -56,11 +56,6 @@ ol {
     cursor: pointer;
 }
 
-/* Configurazione gruppo liste ToDo */
-/* .GroupListToDo {
-    --- DA ESAMINARE!!!!!! ---
-} */
-
 /* Configurazione singola Lista ToDo */
 .SingleListToDo {
     padding-top: 20px;
@@ -115,4 +110,20 @@ ol {
 
 .Q1-Category {
     background-color: rgb(200, 10, 200);
+}
+
+.Recruiting-Category {
+    background-color: rgb(165, 255, 130);
+}
+
+.Mobile-Category {
+    background-color: orange;
+}
+
+.Website-Category {
+    background-color: pink;
+}
+
+.Sales-Category {
+    background-color: rgb(192, 255, 212);
 }
