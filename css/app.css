@@ -56,4 +56,18 @@ ol {
     cursor: pointer;
 }
 
+/* Configurazione gruppo liste ToDo */
+/* .GroupListToDo {
+    --- DA ESAMINARE!!!!!! ---
+} */
+
+/* Configurazione singola Lista ToDo */
+.SingleListToDo {
+    padding-top: 15px;
+}
+
+.ListElement-Particle {
+    display: inline-block;
+}
+
 /*-------- UTILITY --------*/
