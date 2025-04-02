@@ -63,11 +63,56 @@ ol {
 
 /* Configurazione singola Lista ToDo */
 .SingleListToDo {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .ListElement-Particle {
     display: inline-block;
 }
 
+.Work-ProcessStatus {
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.Work-Category {
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+}
+
 /*-------- UTILITY --------*/
+
+.hidden {
+    display: none;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.Process-Done {
+    color: green;
+}
+
+.Process-Undone {
+    color: red;
+}
+
+.Editorial-Category {
+    background-color: rgb(85, 145, 195);
+}
+
+.Q1-Category {
+    background-color: rgb(200, 10, 200);
+}
