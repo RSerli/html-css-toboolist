@@ -18,12 +18,17 @@ ol {
 /*-------- Configurazioni specifiche --------*/
 
 /* Configurazione Header */
+.Page-Header {
+    background-color: white;
+}
+
+/* Configurazione Header */
 .LogoToDoList {
     padding: 20px 15px;
 }
 
-/* Configurazione Main*/
-.Page-Main {
+/* Configurazione Body*/
+body {
     background-color: rgb(165, 165, 165);
 }
 
