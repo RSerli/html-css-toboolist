@@ -15,6 +15,11 @@ ol {
     list-style-type: none;
 }
 
+button {
+    background-color: transparent;
+    border: 1px solid rgb(0, 140, 255);
+}
+
 /*-------- Configurazioni specifiche --------*/
 
 /* Configurazione Header */
@@ -63,7 +68,7 @@ body {
 
 /* Configurazione singola Lista ToDo */
 .SingleListToDo {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .ListElement-Particle {
@@ -71,12 +76,15 @@ body {
 }
 
 .Work-ProcessStatus {
+    width: 30px;
+    height: 30px;
     border: 1px solid;
     border-radius: 50%;
+    text-align: center;
 }
 
 .Work-Category {
-    border-radius: 15px;
+    border-radius: 99999px;
     padding: 5px 10px;
     color: white;
     font-size: 16px;
